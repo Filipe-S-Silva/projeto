@@ -6,39 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EASY STATUS TRAINING</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Easy Status Training logo.png" type="image/x-icon">
 </head>
 
 <body>
 
-    <h1 id="title">EASY STATUS TRAINING</h1>
 
-    <hr>
+    <img id="title" src="img/Easy Status Training logo.png">
 
     <div class="form">
 
-        <div class="loginName">
-            <span>LOGIN</span>
-        </div>
+        <span class="loginName">Faça Login</span>
 
         <div class="login">
 
-            <span>LOGIN: </span>
-            <input type="text" placeholder="Digite seu login" id="login">
+            <input type="text" placeholder="Digite seu login..." id="login" required>
+            <img src="img/email.png" class="iconLogin">
 
         </div>
 
         <div class="senha">
 
-            <div>
-                <span>SENHA: </span>
-                <input type="password" placeholder="Digite sua senha" id="senha">
-            </div>
-            
-            <button id="btnOlho"><img src="img/olhoFechado.png" id="olho"></button>
+            <input type="password" placeholder="Digite sua senha..." id="senha" required>
+            <button><img src="img/olhoFechado.png" id="olho" class="iconLogin"></button>
 
         </div>
 
         <button id="btn">ENTRAR</button>
+
+        <span id="alert"></span>
 
     </div>
 
